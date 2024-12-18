@@ -100,7 +100,7 @@ export const useCodeEditorStore = create<CodeEditorState>((set, get) => {
 
         console.log("data back from piston:", data);
 
-        // handle API-level erros
+        // handle API-level errors
         if (data.message) {
           set({ error: data.message, executionResult: { code, output: "", error: data.message } });
           return;
@@ -120,6 +120,7 @@ export const useCodeEditorStore = create<CodeEditorState>((set, get) => {
           return;
         }
 
+        // for hadling the runtime errors
         if (data.run && data.run.code !== 0) {
           const error = data.run.stderr || data.run.output;
           set({
