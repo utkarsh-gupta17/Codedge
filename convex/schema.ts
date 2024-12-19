@@ -28,12 +28,12 @@ export default defineSchema({
     userName: v.string(),
   }).index("by_user_id",["userId"]),
 
-  // snippetComments: defineTable({
-  //   snippetId: v.id("snippets"),
-  //   userId: v.string(),
-  //   userName: v.string(),
-  //   content: v.string(),
-  // }).index("by_snippet_id",["snippetId"]),
+  snippetComments: defineTable({
+    snippetId: v.id("snippets"),
+    userId: v.string(),
+    userName: v.string(),
+    content: v.string(),
+  }).index("by_snippet_id",["snippetId"]),
 
   stars: defineTable({
     userId: v.string(),
