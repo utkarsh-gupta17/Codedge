@@ -1,6 +1,19 @@
-<h1 align="center">✨ SaaS Code Editor - Next.js 15 ✨</h1>
+<h1 align="center">✨ SaaS Code Editor - Next.js ✨</h1>
 
 ![Demo App](/public/screenshot-for-readme.png)
+<h3 align="center">Editor Panel with Output Panel</h3>
+
+![Demo App](/public/screenshot-for-readme2.png)
+<h3 align="center">User Profile Page with personal stats</h3>
+
+![Demo App](/public/screenshot-for-readme3.png)
+<h3 align="center">Snippet sharing community</h3>
+
+![Demo App](/public/screenshot-for-readme4.png)
+<h3 align="center">Dedicated page for each snippet</h3>
+
+![Demo App](/public/screenshot-for-readme5.png)
+<h3 align="center">Sleek & Modern Sign In modal</h3>
 
 Highlights:
 
